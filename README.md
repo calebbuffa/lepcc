@@ -6,7 +6,7 @@ import numpy as np
 
 ctx = lepcc.Context()
 with open("path/to/xyz.bin", "rb") as file:
-    buffer = lepcc.decode_xyz(file.read())
+    buffer = lepcc.decode_xyz(ctx, file.read())
     xyz = np.frombuffer(buffer, np.float64).reshape(-1, 3)
 ```
 
