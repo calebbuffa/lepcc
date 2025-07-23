@@ -1,0 +1,12 @@
+This code wraps the LEPCC C++ library from Esri, licensed under the Apache 2.0.
+
+The LEPCC implementation is derived from concepts, algorithms, and source code covered by
+United States Patent 9,002,126, Limited Error Raster Compression (LERC).
+
+LEPCC Copyright 2016 Esri
+LERC  Copyright 2015 Esri
+
+Original source repositories:
+
+- <https://github.com/Esri/lepcc>
+- <https://github.com/Esri/lerc>
