@@ -1,3 +1,4 @@
 [submodule "lepcc"]
 	path = lepcc
 	url = https://github.com/Esri/lepcc.git
+	ignore = all
